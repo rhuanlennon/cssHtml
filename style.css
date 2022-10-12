@@ -1,0 +1,54 @@
+
+
+/* o Css é pensado em  cascata o body vem antes do p*/
+
+#banner {
+    width: 100%;
+}
+
+.principal {
+    background:#CCCCCC ;
+    padding: 30px;
+}
+
+.titulo-principal {
+    padding-left: 20px;
+}
+
+p {
+    text-align: center;
+}
+
+/*Nesse caso usamos um id a hashtag serve para referenciar esse id criado no html*/
+#missao {
+    font-size: 20px;
+}
+
+/* Aqui no caso vamos utilizar todos os strong que estejam dentro do em*/
+em strong {
+    color: red;
+}
+
+.itens {
+    font-style: italic ;
+    font-size: 18px;
+}
+
+.beneficios {
+    background: white;
+    padding: 20px;
+}
+
+.titulo-centralizado {
+    text-align: center;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+.imagembeneficios {
+    width: 50%;
+}
